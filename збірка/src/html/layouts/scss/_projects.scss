@@ -5,13 +5,45 @@
 
 
 .projects-title {
-   margin-bottom: 1rem;
+   margin-bottom: 2rem;
    font-size: 3.2rem;
    line-height: 3.7rem;
    text-align: center;
    color: var(--C-title);
    }
+.projects-content {
+    display: flex;
+    justify-content: center;
+}
+.projects-list {
+    display: grid;
+    grid-row-gap: 1.8rem;
+    grid-template-columns: 48rem 48rem;
+    grid-gap: 1.8rem;
+    @media (max-width: 1024px) {
+        grid-template-columns: 30rem 30rem;  
+    }
+    @media (max-width: 767px) {
+        grid-template-columns: 20rem 20rem;  
+    }
+    @media (max-width: 500px) {
+        grid-template-columns: 20rem;  
+    }
+}
 
+.project-container {
+    position: static;
+    width: 48rem;
+    height: 48rem;
+    @media (max-width: 1024px) {
+        width: 30rem;
+        height: 30rem;
+        }
+    @media (max-width: 767px) {
+        width: 20rem;
+        height: 20rem;
+        }
+}
 .project-item {
     position: relative;
     cursor: pointer;
@@ -26,6 +58,14 @@
     position: absolute;
     transition: transform .6s linear;
     backface-visibility: hidden;
+    @media (max-width: 1024px) {
+        width: 30rem;
+        height: 30rem;
+        }
+    @media (max-width: 767px) {
+        width: 20rem;
+        height: 20rem;
+        }
 }
   
    .front img {
@@ -58,4 +98,76 @@
     .project-item:hover > .back{
         transform: perspective(600px) rotateY(0deg);
     }
-    
+    .project-item:focus > .front{
+        transform: perspective(600px) rotateY(-180deg);
+    }
+    .project-item:focus > .back{
+        transform: perspective(600px) rotateY(0deg);
+    }
+
+.content {
+    padding: 2rem;
+}
+
+.description {
+margin-bottom: 3rem;
+font-size: 1.8rem;
+line-height: 2.6rem;
+color: var(--B-footer);
+@media (max-width: 1024px) {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;  
+}
+@media (max-width: 767px) {
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem; 
+    line-height: 1.6rem; 
+}
+}
+
+.description span {
+    margin-right: 1rem;
+    font-size: 2.6rem;
+    @media (max-width: 1024px) {
+        font-size: 1.6rem;   
+    }
+    @media (max-width: 767px) {
+        font-size: 1.2rem;   
+    }
+}
+
+.technology {
+    margin-bottom: 5rem;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    color: var(--B-footer);
+    @media (max-width: 1024px) {
+        margin-bottom: 2rem;
+        font-size: 1.1rem;  
+    }
+    @media (max-width: 767px) {
+        margin-bottom: 1.5rem;
+        font-size: 0.8rem; 
+        line-height: 1.6rem; 
+    }
+}
+.technology span {
+    margin-right: 1rem;
+    font-size: 2.6rem;
+    @media (max-width: 1024px) {
+        font-size: 1.6rem;   
+    }
+    @media (max-width: 767px) {
+        font-size: 1.2rem;   
+    }
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 3rem;
+}
+.icon:hover {
+    opacity: 0.7;
+}
