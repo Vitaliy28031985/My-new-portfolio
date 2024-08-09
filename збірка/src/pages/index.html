@@ -1,14 +1,17 @@
-<extends src="html/layouts/_html.html" locals='{
+<extends
+  src="html/layouts/_html.html"
+  locals='{
     "pageTitle": "Home",
     "pageClass": "home-page"
-}'>
-<block name="main">
+}'
+>
+  <block name="main">
     <main>
-        <include src="html/pages/home/hero/_hero.html"></include>  
-        <include src="html/pages/home/contacts/_contacts.html"></include> 
-        <include src="html/pages/home/about/_about.html"></include>  
-        <include src="html/pages/home/projects/_projects.html"></include> 
-        <include src="html/pages/home/order/_order.html"></include> 
+      <include src="html/pages/home/hero/_hero.html"></include>
+      <!-- <include src="html/pages/home/contacts/_contacts.html"></include>  -->
+      <include src="html/pages/home/about/_about.html"></include>
+      <include src="html/pages/home/projects/_projects.html"></include>
+      <include src="html/pages/home/order/_order.html"></include>
     </main>
-</block>
+  </block>
 </extends>

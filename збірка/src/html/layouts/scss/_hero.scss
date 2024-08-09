@@ -2,13 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 39rem;
+    gap: 9rem;
+    background: var(--B-radial);
+    background-color: var(--B-hero);
    
     @media (max-width: 1024px) {
-        gap: 9rem;
+        gap: 5rem;
     }
     @media (max-width: 767px) {
-        gap: 5rem;
+        gap: 2rem;
     }
     @media (max-width: 500px) {
         flex-direction: column-reverse;
@@ -42,11 +44,21 @@ height: 45rem;
 }
 
 .technology-container {
-    @media (max-width: 500px) {
     display: grid;
     grid-row-gap: 0.8rem;
+    grid-gap: 1.8rem;
+    grid-template-columns: 19rem 19rem;
+    @media (max-width: 1024px) {
+        grid-row-gap: 0.5rem;
+    }
+    @media (max-width: 767px) {
+        grid-gap: 0.8rem;
+        grid-template-columns: 10rem 10rem;
+        }
+    @media (max-width: 500px) {
+    
     grid-template-columns: 5rem 5rem 5rem 5rem;
-    grid-gap: 0.8rem;
+   
               }
 }
 
