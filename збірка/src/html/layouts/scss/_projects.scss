@@ -16,6 +16,7 @@
 .projects-content {
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 .projects-list {
     display: grid;
@@ -29,7 +30,8 @@
         grid-template-columns: 20rem 20rem;  
     }
     @media (max-width: 500px) {
-        grid-template-columns: 20rem;  
+        
+        grid-template-columns: 22rem;  
     }
 }
 
@@ -48,8 +50,7 @@
 }
 .project-item {
     position: relative;
-    cursor: pointer;
-    
+    cursor: pointer;    
     }
 
 .front, .back {
