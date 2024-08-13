@@ -1,5 +1,7 @@
 import express from 'express';
+import cloudinary from '../../utils/cloudinary.js';
 import Project from '../../models/project.js';
+import upload from '../../utils/multer.js'
 
 const router = express.Router();
 
@@ -33,9 +35,10 @@ router.get('/en', async (req, res) => {
     res.status(200).json(getData);
 })
 
-router.post('/', async (req, res) => {
+router.post('/', upload.single("image"), async (req, res) => {
     const { body } = req;
-    const result = await Project.create({ ...body })
+    const avatarData = await cloudinary.uploader.upload(req.file.path);
+    const result = await Project.create({ ...body, avatar: avatarData.secure_url })
     res.status(201).json(result);
 })
 
