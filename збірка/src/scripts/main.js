@@ -1,2 +1,2 @@
-import './modal/modal';
 import './toggle/toggle';
+import './modal/modal';
