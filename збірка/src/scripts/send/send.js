@@ -19,8 +19,20 @@ async function handleSubmit(e) {
         message: message.value
   }
   const lang = localStorage.getItem('language');
+
+ 
   
-  if (data.email === '' || data.name === '' || data.message === '') {
+    if (data.email === '' || data.name === '' || data.message === '') {
+      if (!lang) {
+       Toastify({
+  text: "Усі поля мають бути заповнені!",
+  className: "info",
+  style: {
+     background: "red",
+  }
+}).showToast();
+    return;
+     }
     if (lang === 'uk') {
        Toastify({
   text: "Усі поля мають бути заповнені!",

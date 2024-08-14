@@ -39,8 +39,8 @@ export const projects = async (lang) => {
             <p class="description"><span>Опис:</span>${descriptionUk}</p>
             <p class="technology"><span>Використані технології:</span>${technologies}</p>
             <div class="icons">
-            <a href="${gitLink}" class="git icon"><img alt="Github Generic Flat icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="_e0usu53" src="https://cdn-icons-png.freepik.com/512/2504/2504911.png?ga=GA1.1.731316322.1722436473" style="color: transparent;"></a>
-            <a href="${pageLink}" class="page icon"><img alt="File Juicy Fish Outline icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="_e0usu53" style="color:transparent" src="https://cdn-icons-png.freepik.com/512/3826/3826214.png?ga=GA1.1.731316322.1722436473"></a>
+            <a href="${gitLink}" target="_blank" class="git icon"><img alt="Github Generic Flat icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="_e0usu53" src="https://cdn-icons-png.freepik.com/512/2504/2504911.png?ga=GA1.1.731316322.1722436473" style="color: transparent;"></a>
+            <a href="${pageLink}" target="_blank" class="page icon"><img alt="File Juicy Fish Outline icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="_e0usu53" style="color:transparent" src="https://cdn-icons-png.freepik.com/512/3826/3826214.png?ga=GA1.1.731316322.1722436473"></a>
         </div>
         </div>
         </div>
@@ -64,8 +64,8 @@ export const projects = async (lang) => {
             <p class="description"><span>Description:</span>${descriptionEn}</p>
             <p class="technology"><span>Technologies:</span>${technologies}</p>
             <div class="icons">
-            <a href="${gitLink}" class="git icon"><img alt="Github Generic Flat icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="_e0usu53" src="https://cdn-icons-png.freepik.com/512/2504/2504911.png?ga=GA1.1.731316322.1722436473" style="color: transparent;"></a>
-            <a href="${pageLink}" class="page icon"><img alt="File Juicy Fish Outline icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="_e0usu53" style="color:transparent" src="https://cdn-icons-png.freepik.com/512/3826/3826214.png?ga=GA1.1.731316322.1722436473"></a>
+            <a href="${gitLink}" target="_blank" class="git icon"><img alt="Github Generic Flat icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="_e0usu53" src="https://cdn-icons-png.freepik.com/512/2504/2504911.png?ga=GA1.1.731316322.1722436473" style="color: transparent;"></a>
+            <a href="${pageLink}" target="_blank" class="page icon"><img alt="File Juicy Fish Outline icon" loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="_e0usu53" style="color:transparent" src="https://cdn-icons-png.freepik.com/512/3826/3826214.png?ga=GA1.1.731316322.1722436473"></a>
         </div>
         </div>
         </div>

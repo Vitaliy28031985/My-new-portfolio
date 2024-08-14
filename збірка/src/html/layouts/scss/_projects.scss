@@ -39,6 +39,7 @@
     position: static;
     width: 48rem;
     height: 48rem;
+
     @media (max-width: 1024px) {
         width: 30rem;
         height: 30rem;
@@ -50,7 +51,10 @@
 }
 .project-item {
     position: relative;
-    cursor: pointer;    
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.14),
+    1px 4px 6px rgba(0, 0, 0, 0.2);
     }
 
 .front, .back {
@@ -84,6 +88,13 @@
     background: var(--B-footer);
     color: var(--c-white);
     border-radius: 0.5rem;
+    @media (max-width: 1024px) {
+        font-size: 1.5rem;
+    }
+    @media (max-width: 767px) {
+        font-size: 1.1rem;
+        bottom: 0.3rem;
+    }
    }
    .front {
     transform: perspective(600px) rotateY(0deg);
@@ -119,12 +130,13 @@ line-height: 2.6rem;
 color: var(--B-footer);
 @media (max-width: 1024px) {
     margin-bottom: 2rem;
-    font-size: 1.1rem;  
+    font-size: 1.2rem;
+    line-height: 1.6rem;
 }
 @media (max-width: 767px) {
-    margin-bottom: 1.5rem;
-    font-size: 0.8rem; 
-    line-height: 1.6rem; 
+    margin-bottom: 0.7rem;
+    font-size: 1rem; 
+    line-height: 1rem; 
 }
 }
 
@@ -132,10 +144,10 @@ color: var(--B-footer);
     margin-right: 1rem;
     font-size: 2.6rem;
     @media (max-width: 1024px) {
-        font-size: 1.6rem;   
+        font-size: 1.3rem;   
     }
     @media (max-width: 767px) {
-        font-size: 1.2rem;   
+        font-size: 1.1rem;   
     }
 }
 
@@ -146,22 +158,23 @@ color: var(--B-footer);
     color: var(--B-footer);
     @media (max-width: 1024px) {
         margin-bottom: 2rem;
-        font-size: 1.1rem;  
+        font-size: 1rem;  
+        line-height: 1.6rem;
     }
     @media (max-width: 767px) {
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.7rem;
         font-size: 0.8rem; 
-        line-height: 1.6rem; 
+        line-height: 1rem; 
     }
 }
 .technology span {
     margin-right: 1rem;
     font-size: 2.6rem;
     @media (max-width: 1024px) {
-        font-size: 1.6rem;   
+        font-size: 1.2rem;   
     }
     @media (max-width: 767px) {
-        font-size: 1.2rem;   
+        font-size: 1rem;   
     }
 }
 

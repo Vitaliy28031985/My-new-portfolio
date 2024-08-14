@@ -5,16 +5,16 @@ export const navMarkap = (lang) => {
     const render = `
      <ul class="header-nav-container">
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">Головна</a>
+          <a href="#hero" class="header-nav-link">Головна</a>
         </li>
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">Про мене</a>
+          <a href="#about" class="header-nav-link">Про мене</a>
         </li>
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">Роботи</a>
+          <a href="#projects" class="header-nav-link">Роботи</a>
         </li>
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">Моє резюме</a>
+          <a href="https://drive.google.com/file/d/1L-QE-UTUXtyNDxPVWqpRRzR2Ahl-wVCY/view?usp=sharing" target="blank" class="header-nav-link">Моє резюме</a>
         </li>
       </ul>
       <button class="menu" id="open"><i class="fa-solid fa-bars"></i></button>
@@ -23,16 +23,16 @@ export const navMarkap = (lang) => {
         <button class="close" id="close"><i class="fa-sharp fa-regular fa-circle-xmark"></i></button>
      <ul >
       <li class="header-nav-item">
-        <a href="" class="header-nav-link header-nav-link--mobile">Головна</a>
+        <a href="#hero" class="header-nav-link header-nav-link--mobile">Головна</a>
       </li>
       <li class="header-nav-item">
-        <a href="" class="header-nav-link header-nav-link--mobile">Про мене</a>
+        <a href="#about" class="header-nav-link header-nav-link--mobile">Про мене</a>
       </li>
       <li class="header-nav-item">
-        <a href="" class="header-nav-link header-nav-link--mobile">Роботи</a>
+        <a href="#projects" class="header-nav-link header-nav-link--mobile">Роботи</a>
       </li>
       <li class="header-nav-item">
-        <a href="" class="header-nav-link header-nav-link--mobile">Моє резюме</a>
+        <a href="https://drive.google.com/file/d/1L-QE-UTUXtyNDxPVWqpRRzR2Ahl-wVCY/view?usp=sharing" target="blank" class="header-nav-link header-nav-link--mobile">Моє резюме</a>
       </li>
      </ul>
     </div>
@@ -45,16 +45,16 @@ export const navMarkap = (lang) => {
          const render = `
      <ul class="header-nav-container">
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">Home</a>
+          <a href="#hero" class="header-nav-link">Home</a>
         </li>
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">About me</a>
+          <a href="#about" class="header-nav-link">About me</a>
         </li>
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">My works</a>
+          <a href="#projects" class="header-nav-link">My works</a>
         </li>
         <li class="header-nav-item">
-          <a href="" class="header-nav-link">My resume</a>
+          <a href="https://drive.google.com/file/d/1L-QE-UTUXtyNDxPVWqpRRzR2Ahl-wVCY/view?usp=sharing" target="blank" class="header-nav-link">My resume</a>
         </li>
       </ul>
       <button class="menu" id="open"><i class="fa-solid fa-bars"></i></button>
@@ -63,16 +63,16 @@ export const navMarkap = (lang) => {
         <button class="close" id="close"><i class="fa-sharp fa-regular fa-circle-xmark"></i></button>
      <ul >
       <li class="header-nav-item">
-        <a href="" class="header-nav-link header-nav-link--mobile">Home</a>
+        <a href="#hero" class="header-nav-link header-nav-link--mobile">Home</a>
       </li>
       <li class="header-nav-item">
-        <a href="" class="header-nav-link header-nav-link--mobile">About me</a>
+        <a href="#about" class="header-nav-link header-nav-link--mobile">About me</a>
       </li>
       <li class="header-nav-item">
-        <a href="" class="header-nav-link header-nav-link--mobile">My works</a>
+        <a href="#projects" class="header-nav-link header-nav-link--mobile">My works</a>
       </li>
       <li class="header-nav-item">
-        <a href="" class="header-nav-link header-nav-link--mobile">My resume</a>
+        <a href="https://drive.google.com/file/d/1L-QE-UTUXtyNDxPVWqpRRzR2Ahl-wVCY/view?usp=sharing" target="blank" class="header-nav-link header-nav-link--mobile">My resume</a>
       </li>
      </ul>
     </div>

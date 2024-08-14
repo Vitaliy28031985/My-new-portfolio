@@ -11,7 +11,18 @@ import { projects } from '../markap/projects/projects';
 const toggleButton = document.getElementById("toggle-button");
 
 const lang = localStorage.getItem('language');
-
+if (!lang) { 
+   navMarkap("uk");
+    skills("uk");
+    about(lang);
+    projectsTitle("uk");
+    (async () => {
+    projects("uk");
+    })();
+    
+    order("uk");
+    footer("uk");
+}
 if (lang) {
   lang === "en" ? toggleButton.checked = true : toggleButton.checked = false;
 
@@ -32,7 +43,7 @@ const toggle = async () => {
     const checked = toggleButton.checked;
     localStorage.setItem('language', checked ? "en" : "uk");
     const language = localStorage.getItem('language');
-   
+      
      
     if (language === "en") {
         navMarkap(language);
