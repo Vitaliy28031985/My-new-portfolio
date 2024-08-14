@@ -29,3 +29,24 @@ export const projectsEn = async () => {
         throw error; 
     }
 }
+
+export function addMessage(data) {
+  fetch(`${BASE_URL}orders/`, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    mode: "cors",
+    body: JSON.stringify(data),
+  })
+    .then((res) => {
+      if (res.ok) {
+        return res.json();
+      }
+      // handle error
+    })
+    .then((message) => {
+      // Do something with updated task
+    })
+    .catch((error) => {
+      return Promise.reject(new Error("Nothing was found for your request"));
+    });
+}

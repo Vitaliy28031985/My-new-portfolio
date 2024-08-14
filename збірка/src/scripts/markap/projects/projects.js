@@ -26,7 +26,6 @@ const fetchDataEn = async () => {
 export const projects = async (lang) => {
     if (lang === "uk") {
           const data = await fetchData();
-          console.log('uk', data)
         const render = data.map(({avatar, titleUk, descriptionUk, technologies, gitLink, pageLink}) => 
          ` 
           <li class="project-container">

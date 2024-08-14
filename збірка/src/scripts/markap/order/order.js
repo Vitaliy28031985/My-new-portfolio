@@ -7,10 +7,10 @@ export const order = (lang) => {
     <div class="order-content">
     <form class="form">
      <div class="input-container">
-        <input class="input" type="text" placeholder="Ваше ім'я">
-        <input type="text" class="input" placeholder="Ваш e-mail">
+        <input name="name" class="input" type="text" placeholder="Ваше ім'я">
+        <input name="email" type="text" class="input" placeholder="Ваш e-mail">
      </div>
-     <textarea class="textarea" placeholder="Повідомлення"></textarea>
+     <textarea name="message" class="textarea" placeholder="Повідомлення"></textarea>
      <button type="submit" class="button">Надіслати</button>
     </form>
     </div>
@@ -23,10 +23,10 @@ export const order = (lang) => {
     <div class="order-content">
     <form class="form">
      <div class="input-container">
-        <input class="input" type="text" placeholder="Your name">
-        <input type="text" class="input" placeholder="Your e-mail">
+        <input name="name" class="input" type="text" placeholder="Your name">
+        <input name="email" type="text" class="input" placeholder="Your e-mail">
      </div>
-     <textarea class="textarea" placeholder="Message"></textarea>
+     <textarea name="message" class="textarea" placeholder="Message"></textarea>
      <button type="submit" class="button">Send</button>
     </form>
     </div>

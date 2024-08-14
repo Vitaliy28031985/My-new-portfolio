@@ -56,7 +56,7 @@ const toggle = async () => {
        
         
     }
-  
+  location.reload(true);
     
 } 
 
