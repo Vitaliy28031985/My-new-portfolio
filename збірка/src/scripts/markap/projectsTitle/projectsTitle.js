@@ -6,7 +6,7 @@ export const  projectsTitle = (lang) => {
           point.innerHTML = '';
         point.insertAdjacentHTML("afterbegin", render);
     } else {
-        const render = `<h4 class="projects-title">My Works</h4>>`;
+        const render = `<h4 class="projects-title">My Works</h4>`;
           point.innerHTML = '';
         point.insertAdjacentHTML("afterbegin", render);
     }

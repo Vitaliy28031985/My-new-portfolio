@@ -3,21 +3,19 @@ export const about = (lang) => {
     if (lang === "uk") {
         const render = `
         <h4 class="about-title">Про мене</h4>
-          <p class="text">З листопада 2021 року я розпочав навчання у ІТ школі “GO IT “. Протягом навчання ми реалізували багато цікавих проектів, як на ванільному Java Script, так і на React.
-
-            Зокрема, я пишаюсь своєю роботою над проектом “Petly”. Цей проект з одного боку є соціально корисним, оскільки допомагає домашнім тваринкам знайти власників, а з іншого боку, в процесі його реалізації був застосований цілий спектр технологій, що посприяло моєму технічному зростанню.
-            
-            Останній командний проект, який ми реалізовували з командою випускників, був з використанням такої технології як React Native.
-            
-            На сьогоднішній день, здебільшого я працюю на фрілансі.</p>
+          <p class="text">З 2022 року працюю у сфері веб-розробки.
+          Працював над різноманітними проектами як в команді так і самостійно.
+          Проект яким я пишаюся - це «EstimateApp». Веб-застосунок, створений за допомогою стеку MERN (MongoDB, Express, React.js, Node.js). Застосунок має практичне значення, оскільки ним уже користуються деякі ремонтно-будівельні бригади.
+          На сьогоднішній день, здебільшого я працюю на фрілансі. Займаюся версткою сайтів, створюю веб-застосунки з допомогою React та Node.js.</p>
         `;
         point.innerHTML = '';
         point.insertAdjacentHTML("afterbegin", render);
     } else {
         const render = `
         <h4 class="about-title">About me</h4>
-          <p class="text">From November 2021, I started studying at the IT school "GO IT". During the training, we implemented many interesting projects, both on vanilla Java Script and on React. In particular, I am proud of my work on the Petly project. This project, on the one hand, is socially useful,
-           as it helps pets find owners, and on the other hand, a whole range of technologies was used in the process of its implementation, which contributed to my technical growth. The last team project we implemented with the graduate team was using technology like React Native. Today, I mostly work as a freelancer.</p>
+          <p class="text">Since 2022, I have been working in the field of web development. I worked on different projects, some were team projects and others were my personal projects. But the project I am proud of is EstimateApp. The application was created using MERN technology (MongoDB, Express, React.js, Node.js). The application has a practical application, as it is used by several repair and construction teams.
+          Today I mostly work as a freelancer, developing websites, building web applications using React and Node.js.
+         </p>
         `;
          point.innerHTML = '';
          point.insertAdjacentHTML("afterbegin", render);
